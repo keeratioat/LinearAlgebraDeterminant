@@ -75,7 +75,7 @@ class Det {
 }
 
     // Driver code 
-    public class determinant {
+    public class Determinant {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner (System.in);
