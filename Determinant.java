@@ -91,7 +91,7 @@ class Det {
             }System.out.println("Dimension of Matrix " + N);
             System.out.print("Determinant "
                     + "of the matrix is : "
-                    + d.FindDeterminant(mat, N));
+                    + d.findDeterminant(mat, N));
         }
     }
 
