@@ -42,7 +42,7 @@ class Det {
 
     /* Recursive function for finding determinant 
     of matrix. n is current dimension of mat[][]. */
-     public int FindDeterminant(int mat[][], int n) 
+     public int findDeterminant(int mat[][], int n) 
     { 
         int D = 0; // Initialize result 
       
@@ -63,7 +63,7 @@ class Det {
             // Getting Cofactor of mat[0][f] 
             getCofactor(mat, temp, 0, f, n); 
             D += sign * mat[0][f]  
-               * FindDeterminant(temp, n - 1); 
+               * findDeterminant(temp, n - 1); 
             // terms are to be added with  
             // alternate sign 
             sign = -sign; 
